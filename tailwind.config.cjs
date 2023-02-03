@@ -5,7 +5,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'Cuprum': ['Cuprum', 'sans-serif'],
+        'Inconsolata': ['Inconsolata', 'monospace' ]
+      },
+    },
   },
   plugins: [],
 }
