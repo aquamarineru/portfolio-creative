@@ -23,7 +23,7 @@ export default function SideNav() {
           nav ? (
             <>
             <div 
-              className='fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20'>
+              className='fixed w-full h-screen bg-[#E8EDDF] flex flex-col justify-center items-center z-20'>
               <a href='#main' 
                 className='w-[75%] flex justify-center rounded-full shadow-lg bg-[#CFDBD5] shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200'>
                 <AiOutlineHome size={20}/>
@@ -57,7 +57,7 @@ export default function SideNav() {
           : (
             ''
             )}
-            <div className='md:block hidden fixed top-[25%] z-10'>
+            <div className='md:block hidden fixed top-[25%] z-10 ml-5'>
               <div className='flex flex-col'>
                 <a href="#main" 
                   className='rounded-full shadow-lg bg-[#CFDBD5]
