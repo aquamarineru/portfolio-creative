@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { AiOutlineMenu, AiOutlineHome, AiOutlineMail, AiOutlineProject } from 'react-icons/ai'
-import { FaUniversity } from 'react-icons/fa'
-import { GrProjects } from 'react-icons/gr'
+import { RxResume } from 'react-icons/rx'
 import { BsPerson } from 'react-icons/bs'
 
 export default function SideNav() {
@@ -32,8 +31,8 @@ export default function SideNav() {
               <a href='#main' 
                 className='w-[75%] flex justify-center rounded-full shadow-lg bg-[#CFDBD5]
                  shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200 dark:bg-[#3D405B] dark:text-white/80'>
-                <FaUniversity size={20}/>
-                <span className='pl-4 dark:text-white/80'>Education</span>
+                <BsPerson size={20}/>
+                <span className='pl-4 dark:text-white/80'>About me</span>
               </a>
               <a href='#main' 
                 className='w-[75%] flex justify-center rounded-full shadow-lg bg-[#CFDBD5]
@@ -43,7 +42,7 @@ export default function SideNav() {
               </a>
               <a href='#main' 
                 className='w-[75%] flex justify-center rounded-full shadow-lg bg-[#CFDBD5] shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200 dark:bg-[#3D405B] dark:text-white/80'>
-                <BsPerson size={20}/>
+                <GrResume size={20}/>
                 <span className='pl-4 dark:text-white/80'>Resume</span>
               </a>
               <a href='#main' 
@@ -67,7 +66,7 @@ export default function SideNav() {
                 <a href="#main" 
                   className='rounded-full shadow-lg bg-[#CFDBD5]
                    shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200 dark:bg-[#3D405B] dark:text-white/80'>
-                  <FaUniversity size={25}/>
+                  <BsPerson size={25}/>
                 </a>
                 <a href="#main" 
                   className='rounded-full shadow-lg bg-[#CFDBD5] shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200 dark:bg-[#3D405B] dark:text-white/80'>
@@ -75,7 +74,7 @@ export default function SideNav() {
                 </a>
                 <a href="#main" 
                   className='rounded-full shadow-lg bg-[#CFDBD5] shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200 dark:bg-[#3D405B] dark:text-white/80'>
-                  <BsPerson size={25}/>
+                  <RxResume size={25}/>
                 </a>
                 <a href="#main" 
                   className='rounded-full shadow-lg bg-[#CFDBD5] shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200 dark:bg-[#3D405B] dark:text-white/80'>
