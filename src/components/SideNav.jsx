@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { AiOutlineMenu, AiOutlineHome, AiOutlineMail } from 'react-icons/ai'
+import { AiOutlineMenu, AiOutlineHome, AiOutlineMail, AiOutlineProject } from 'react-icons/ai'
 import { FaUniversity } from 'react-icons/fa'
 import { GrProjects } from 'react-icons/gr'
 import { BsPerson } from 'react-icons/bs'
@@ -25,29 +25,29 @@ export default function SideNav() {
             <div 
               className='fixed w-full h-screen bg-[#E8EDDF] flex flex-col justify-center items-center z-20 dark:bg-[#0D060F]'>
               <a href='#main' 
-                className='w-[75%] flex justify-center rounded-full shadow-lg bg-[#CFDBD5] shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200 dark:bg-[#FCA311] dark:text-white/80'>
+                className='w-[75%] flex justify-center rounded-full shadow-lg bg-[#CFDBD5] shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200 dark:bg-[#3D405B] dark:text-white/80'>
                 <AiOutlineHome size={20}/>
                 <span className='pl-4 dark:text-white/80'>Home</span>
               </a>
               <a href='#main' 
                 className='w-[75%] flex justify-center rounded-full shadow-lg bg-[#CFDBD5]
-                 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200 dark:bg-[#FCA311] dark:text-white/80'>
+                 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200 dark:bg-[#3D405B] dark:text-white/80'>
                 <FaUniversity size={20}/>
                 <span className='pl-4 dark:text-white/80'>Education</span>
               </a>
               <a href='#main' 
                 className='w-[75%] flex justify-center rounded-full shadow-lg bg-[#CFDBD5]
-                 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200 dark:bg-[#FCA311] dark:text-white/80'>
-                <GrProjects size={20} />
+                 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200 dark:bg-[#3D405B] dark:text-white/80'>
+                <AiOutlineProject size={20} />
                 <span className='pl-4 dark:text-white/80'>Projects</span>
               </a>
               <a href='#main' 
-                className='w-[75%] flex justify-center rounded-full shadow-lg bg-[#CFDBD5] shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200 dark:bg-[#FCA311] dark:text-white/80'>
+                className='w-[75%] flex justify-center rounded-full shadow-lg bg-[#CFDBD5] shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200 dark:bg-[#3D405B] dark:text-white/80'>
                 <BsPerson size={20}/>
                 <span className='pl-4 dark:text-white/80'>Resume</span>
               </a>
               <a href='#main' 
-                className='w-[75%] flex justify-center rounded-full shadow-lg bg-[#CFDBD5] shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200 dark:bg-[#FCA311] dark:text-white/80'>
+                className='w-[75%] flex justify-center rounded-full shadow-lg bg-[#CFDBD5] shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200 dark:bg-[#3D405B] dark:text-white/80'>
                 <AiOutlineMail size={20}/>
                 <span className='pl-4 dark:text-white/80'>Contact</span>
               </a>
@@ -61,25 +61,25 @@ export default function SideNav() {
               <div className='flex flex-col'>
                 <a href="#main" 
                   className='rounded-full shadow-lg bg-[#CFDBD5]
-                   shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200 dark:bg-[#FCA311] dark:text-white/80'>
-                  <AiOutlineHome size={20}/>
+                   shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200 dark:bg-[#3D405B] dark:text-white/80'>
+                  <AiOutlineHome size={25}/>
                 </a>
                 <a href="#main" 
                   className='rounded-full shadow-lg bg-[#CFDBD5]
-                   shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200 dark:bg-[#FCA311] dark:text-white/80'>
-                  <FaUniversity size={20}/>
-                </a>
-                <a href="#main" 
-                  className='rounded-full shadow-lg bg-[#CFDBD5] shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200 dark:bg-[#FCA311] dark:text-white/80'>
-                  <GrProjects size={20}/>
+                   shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200 dark:bg-[#3D405B] dark:text-white/80'>
+                  <FaUniversity size={25}/>
                 </a>
                 <a href="#main" 
                   className='rounded-full shadow-lg bg-[#CFDBD5] shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200 dark:bg-[#3D405B] dark:text-white/80'>
-                  <BsPerson size={20}/>
+                  <AiOutlineProject size={25}/>
                 </a>
                 <a href="#main" 
                   className='rounded-full shadow-lg bg-[#CFDBD5] shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200 dark:bg-[#3D405B] dark:text-white/80'>
-                  <AiOutlineMail size={20} className='color-white'/>
+                  <BsPerson size={25}/>
+                </a>
+                <a href="#main" 
+                  className='rounded-full shadow-lg bg-[#CFDBD5] shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 easy-in duration-200 dark:bg-[#3D405B] dark:text-white/80'>
+                  <AiOutlineMail size={25} className='color-white'/>
                 </a>
               </div>
             </div>
