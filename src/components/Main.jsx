@@ -62,7 +62,7 @@ darkQuery.addEventListener('change', (e) =>{
   return (
     <div id='main'>
         <div className='w-full h-screen flex flex-col justify-center items-center absolute top-0 left-0 bg-[#E8EDDF] lg:items-end dark:bg-[#0D060F]'>
-            <div className="fixed top-3 left-2 dark:text-white/80 rounded lg:mt-8 "> 
+            <div className="fixed top-3 left-3 dark:text-white/80 rounded lg:mt-8 lg:left-10"> 
                 {
                     options?.map(opt =>(
                         <button 
